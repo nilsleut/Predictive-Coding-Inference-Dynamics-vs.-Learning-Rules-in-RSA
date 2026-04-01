@@ -28,7 +28,7 @@ The original PC network shows a crossing hierarchy gradient in RSA: r₀ correla
 Results replicated across N=3 subjects (mean retention: Standard-PC +0.268, DH-PC +0.272, Random +0.271).
 
 ### RSA Profile — sub-01
-![RSA Comparison](outputs/dh_sub-01/dh_01_rsa_comparison.png)
+<img width="1568" height="583" alt="image" src="https://github.com/user-attachments/assets/9f12841f-c0b0-4c85-878d-6fd57122f43f" />
 
 The grey dotted line ("Random, no training") overlaps almost perfectly with the DH-PC profile. Training improves absolute ρ values — Standard-PC r₀ at V1 is 0.309 vs. 0.206 for random — but the **crossing gradient structure is identical** across all three conditions.
 
@@ -63,7 +63,7 @@ Training substantially improves absolute ρ values. At V1, Standard-PC r₀ achi
 
 Standard-PC converges cleanly (Free Energy: ~1.7 → ~0.7). DH-PC does not converge under these hyperparameters — Early Stopping terminates after ~15 epochs with Free Energy ~3.0. This is an open limitation: Grewe et al. (2023) demonstrate DH convergence on synthetic FC networks; extending to high-dimensional hierarchical features likely requires a smaller `lr_w` or adaptive step-size.
 
-![Convergence](outputs/dh_sub-01/dh_02_free_energy.png)
+<img width="1485" height="582" alt="image" src="https://github.com/user-attachments/assets/64835947-8ebf-450f-bf25-b6c8bd097d2d" />
 
 ---
 
